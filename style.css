@@ -16,7 +16,7 @@ h3 {
 
 footer {
     text-align: center;
-    margin: 20px;
+    margin: 18px;
 }
 
 .card {
@@ -26,5 +26,10 @@ footer {
 
 .main-button {
     background-color: rgb(255,215,0);
+}
+
+.contact-informations {
+    font-size: 12px;
+    padding: 20px;
 }
 
