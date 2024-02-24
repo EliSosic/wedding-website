@@ -6,9 +6,6 @@ body {
     background-color: black;
 }
 
-h1 {
-    margin: 30px
-}
 
 h3 {
     font-size: 18px;
@@ -19,14 +16,22 @@ footer {
     margin: 18px;
 }
 
+.homepage-image {
+    margin-top: 20px;
+}
+
 .card {
     margin: 20px;
-    width: 80%;
+    
 }
 
 .main-button {
     background-color: rgb(255,215,0);
+    margin-top: 20px;
+    
 }
+
+
 
 .contact-informations {
     font-size: 12px;
