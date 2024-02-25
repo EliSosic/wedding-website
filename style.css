@@ -15,6 +15,9 @@ footer {
     margin: 18px;
 }
 
+.logo {
+    max-width: 10%;
+}
 
 .homepage-image {
     margin-top: 20px;
