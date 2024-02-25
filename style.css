@@ -14,9 +14,18 @@ footer {
     text-align: center;
     margin: 18px;
 }
-
 .logo {
-    max-width: 10%;
+    max-width: 30%;
+}
+
+@media (max-width:900px) {
+    .logo {
+        max-width: 20%;
+    }
+}
+
+.navbar-size {
+    max-width: 250px;
 }
 
 .homepage-image {
@@ -45,4 +54,6 @@ footer {
     font-size: 12px;
     padding: 20px;
 }
+
+
 
