@@ -3,6 +3,7 @@
 :root {
     --main-color: rgb(207,181,59);
 }
+
 body {
     font-family: 'merriweather';
     color: white;
@@ -29,6 +30,15 @@ footer {
 
 .navbar-size {
     max-width: 250px;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: var(--main-color);
+    text-shadow: 1.5px 2.5px white;
+    font-weight: bold;
 }
 
 .homepage-image {
@@ -58,18 +68,20 @@ footer {
     padding: 20px;
 }
 
-
-.our-story-title {
-    text-align: center;
-    margin: 20px;
-    font-size: 50px;
-    color: var(--main-color);
-    text-shadow: 1.5px 2.5px white;
-    font-weight: bold;
-}
-
 .our-story-container {
     display: flex;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.687);
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: repeat(1, 1fr 1fr);
+    grid-gap: 20px;
+}
+
+.photo-gallery-img {
+    width: 100%;
+    border-radius: 10px;
 }
