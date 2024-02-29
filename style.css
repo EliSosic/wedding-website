@@ -59,6 +59,14 @@ footer {
 }
 
 
+.our-story-title {
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: var(--main-color);
+    text-shadow: 1.5px 2.5px white;
+    font-weight: bold;
+}
 
 .our-story-container {
     display: flex;
