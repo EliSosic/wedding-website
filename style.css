@@ -10,6 +10,7 @@ body {
     background-color: black;
 }
 
+
 h3 {
     font-size: 18px;
 }
@@ -37,7 +38,7 @@ footer {
     margin: 20px;
     font-size: 50px;
     color: var(--main-color);
-    text-shadow: 1.5px 2.5px white;
+    text-shadow: 1.5px 1.5px white;
     font-weight: bold;
 }
 
@@ -72,6 +73,48 @@ footer {
     display: flex;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.687);
+}
+
+
+.our-story-text {
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.savethedate-title {
+    font-size: 60px;
+    text-align: center;
+    color: var(--main-color);
+    text-shadow: 2.5px 2.5px 6px rgba(0, 0, 0, 0.760);
+    font-weight: bold;
+}
+
+.savethedate-text {
+    margin-top: 90px;
+
+}
+
+.savethedate-info {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 800px) {
+    .savethedate-title {
+        font-size: 35px;
+        text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.760);
+    }
+
+    .savethedate-text {
+        margin-top: 15px;
+    }
+
+    .savethedate-info {
+        margin-top: 10px;
+    }
 }
 
 .photo-gallery {
