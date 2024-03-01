@@ -14,6 +14,12 @@ body {
 h3 {
     font-size: 18px;
 }
+h5 {
+    color: var(--main-color);
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.760);
+    font-weight: bold;
+
+}
 
 footer {
     text-align: center;
@@ -120,11 +126,15 @@ footer {
 .photo-gallery {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: repeat(1, 1fr 1fr);
+    grid-template-rows: repeat(1, 1, 1fr 1fr);
     grid-gap: 20px;
 }
 
 .photo-gallery-img {
     width: 100%;
     border-radius: 10px;
+}
+
+.photo-gallery-img:hover {
+    transform: scale(1.1);
 }
